@@ -1423,10 +1423,21 @@ REVIEWS */
 /* RESPONSIVE 
 Footer */
 @media screen and (max-width: 1200px){
-
+    /* .subscribe  */
+    #subscribe .title-big{
+        font-size: 32px;
+        line-height: 40px;
+    }
 }
 
 @media screen and (max-width: 992px){
+    #footer .footer__list .footer-title{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    #footer .footer__copy{
+        text-align: center;
+    }
 
 }
 
@@ -1435,7 +1446,40 @@ Footer */
 }
 
 @media screen and (max-width: 568px){
-     
+    /* SUBSCRIBE  */
+    #subscribe .title-big {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    form .subscribe{
+        grid-template-columns: 42px 1fr auto;
+    }
+    #subscribe .input-group-text{
+        padding: 0 12px;
+        font-size: 15px;
+    }
+    #subscribe .btn-primary{
+        padding: 0 20px;
+    }
+    /* FOOTER  */
+    #footer .navbar{
+        font-size: 26px;
+    }
+    #footer .footer__list p{
+        font-size: 17px;
+    }
+    #footer .footer__social a{
+        font-size: 17px;
+    }
+    #footer .footer__list .mb-2{
+        font-size: 17px;
+    }
+    #footer .footer__copy{
+        font-size: 17px;
+    }
+    #footer .footer__copy a{
+        font-size: 17px;
+    }
 }
 
 
